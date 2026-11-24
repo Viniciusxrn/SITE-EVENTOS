@@ -1,0 +1,64 @@
+*
+{
+  margin:0px;
+  padding:0px;
+}
+.container
+{
+  height:100vh;
+  width:100vw;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.Imagem
+{
+  height:200px;
+  width:280px;
+
+}
+input 
+{
+  outline:none;
+  height:20px;
+  width:300px;
+  background-color:ghostwhite;
+}
+.content
+{
+  display:flex;
+  flex-direction:column;
+}
+button
+{
+  cursor:pointer;
+  border:2px solid black;
+  font-family:'Times New Roman', Times, serif;
+  transition:1s;
+}
+button:hover
+{
+  background-color:rgb(22, 188, 188);
+}
+.buttonAlt
+{
+  border:2px solid black;
+  width:80px;
+}
+li
+{
+  color:black;
+  font-size:18px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:coral;
+  width:300px;
+  height:25px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  border-radius:10px;
+}
+
